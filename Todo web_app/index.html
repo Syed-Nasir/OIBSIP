@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Todo List</h1>
+	<form>
+		<input type="text" id="taskInput" placeholder="Enter task here...">
+		<button type="button" id="addButton" onclick="addTask()">Add</button>
+	</form>
+	<div id="pendingTasks">
+		<h2>Pending Tasks:</h2>
+		<ul id="pendingList"></ul>
+	</div>
+	<div id="completedTasks">
+		<h2>Completed Tasks:</h2>
+		<ul id="completedList"></ul>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
